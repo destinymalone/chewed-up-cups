@@ -1,123 +1,124 @@
-*{
+* {
     box-sizing: border-box;
 }
 
 title {
     display: inline-block;
     margin: 1 auto;
-    padding: 2rem; 
+    padding: 2rem;
     color: rgb(6, 6, 209);
     text-align: center;
+}
 
-  }
-  
-  h1, h2, h3, h4 {
-        margin: 0 auto;
-        color: blue;
-        text-align: center;
-  }
+h1, h2, h3, h4 {
+    margin: 0 auto;
+    color: blue;
+    text-align: center;
+}
 
-  .background_image {
-        display: block;
-        margin: auto;
-        padding: 0px;
-        position: absolute;
-        top: -1.5px;
-        left: -1.0px;
-        right: -1.0px;
-        width: 100%;
-        height: auto;
-        background-color: none;
-        border-image: url("paw\ print.png") 25 25 round;
-        border: 3px solid white;
-  }
+.background_image {
+    display: block;
+    margin: auto;
+    padding: 0px;
+    position: absolute;
+    top: -1.5px;
+    left: -1.0px;
+    right: -1.0px;
+    width: 100%;
+    height: auto;
+    background-color: none;
+    border-image: url("paw\ print.png") 25 25 round;
+    border: 3px solid white;
+}
 
-  body {
-      margin: 0;
-      color:black;
-      position: center;
-      min-width: 100%;
-      min-height: 100%;
-      background-size:  cover;
-  }
+body {
+    margin: 0;
+    color: black;
+    position: center;
+    min-width: 100%;
+    min-height: 100%;
+    background-size: cover;
+}
 
 main {
-        display: grip;
-        margin: 5vh 15vh 15vh 15vh;
-        grid-template-columns: fit-content(300px) fit-content(300px) 1fr;
-        grid-gap: 5px;
+    display: grip;
+    margin: 5vh 15vh 15vh 15vh;
+    grid-template-columns: fit-content(300px) fit-content(300px) 1fr;
+    grid-gap: 5px;
 }
-  p {
-        padding: 5px;
-        color: black;
-  }
 
-  img {
-      background-size: 2em;
-      min-width: 20%;
-      min-height: 20%;
-      max-width: 100%;
-  }
+p {
+    padding: 5px;
+    color: black;
+}
+
+img {
+    background-size: 2em;
+    min-width: 20%;
+    min-height: 20%;
+    max-width: 100%;
+}
 
 #landing_page_main {
-        display: flex;
-        position: center;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
+    display: flex;
+    position: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
-  .parent {
-      display: flex;
-      min-height: 50vh;
-      margin: 0 4%;
-      margin-top: 5em;
 
-  }
+.parent {
+    display: flex;
+    min-height: 50vh;
+    margin: 0 4%;
+    margin-top: 5em;
+}
 
-  .child {
-        margin: 1rem;
-        padding: 1rem;
-        flex: 1;
-        background-color: lightblue;
-  }
+.child {
+    margin: 1rem;
+    padding: 1rem;
+    flex: 1;
+    background-color: lightblue;
+}
 
-  .child.child--big {
-      flex: 3;
-  }
+.child.child--big {
+    flex: 3;
+}
 
 #man_and_dog {
-        margin: 5rem;
-        position: center;
-        background-position: center;
-        flex-direction: row;
-        align-items: flex-start;
-        justify-content: center;
+    margin: 5rem;
+    position: center;
+    background-position: center;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
 }
 
 .landing {
-        display: grid;
-        margin: 10;
-        padding: 1rem;
-        grid-template-rows: 1fr 1fr 1fr;
-        max-width: 80%;
-        font-size:  13pt;
-        background-color: lightblue;
-        justify-items: center;
-        justify-self: flex-start;
+    display: grid;
+    margin: 10;
+    padding: 1rem;
+    grid-template-rows: 1fr 1fr 1fr;
+    max-width: 80%;
+    font-size: 13pt;
+    background-color: lightblue;
+    justify-items: center;
+    justify-self: flex-start;
 }
 
 a:hover {
     background-color: transparent;
 }
-  .about-content {
-        margin: 5% 20% 10% 30%;
-        margin: 2rem;
-        align-self: center;
-  }
 
-  .image {
-        margin: -3rem 2rem 4rem 4rem;
-        float: left;
-        max-width: 500px;
-        align-self: center;
-  }
+.about-content {
+    margin: 5% 20% 10% 30%;
+    margin: 2rem;
+    align-self: center;
+}
+
+.image {
+    margin: -3rem 2rem 4rem 4rem;
+    float: left;
+    max-width: 500px;
+    align-self: center;
+}
