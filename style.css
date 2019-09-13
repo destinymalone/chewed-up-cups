@@ -1,0 +1,139 @@
+*{
+    box-sizing: border-box;
+}
+
+title {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    color: rgb(6, 6, 209);
+    margin: 1 auto;
+    padding: 2rem; 
+    text-align: center;
+
+  }
+  
+  h1, h2, h3, h4 {
+    /* display: inline-block; */
+    color: blue;
+    margin: 0 auto;
+    /* padding: 2em; */
+    text-align: center;
+  }
+
+  .background_image {
+    display: block;
+    position: absolute;
+    top: -1.5px;
+    right: -1.0px;
+    left: -1.0px;
+    height: auto;
+    width: 100%;
+    background-color: none;
+    border: 3px solid white;
+    margin: auto;
+    padding: 0px;
+  
+    border-image:
+        url("paw\ print.png") 25 25 round;
+  }
+
+  body {
+      box-sizing: border-box;
+      color:black;
+      margin: 0;
+      /* background-image: url(paws.png);  */
+      position: center;
+      min-height: 100%;
+      min-width: 100%;
+      background-size:  cover;
+  }
+
+main {
+    margin: 5vh 15vh 15vh 15vh;
+    display: grip;
+    grid-template-columns: fit-content(300px) fit-content(300px) 1fr;
+    grid-gap: 5px;
+}
+  p {
+      color: black;
+      padding: 5px;
+  }
+
+  img {
+      background-size: 2em;
+      min-height: 20%;
+      min-width: 20%;
+      max-width: 100%;
+  }
+
+#landing_page_main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: center;
+    justify-content: center;
+}
+  .parent {
+      display: flex;
+      min-height: 50vh;
+      margin: 0 4%;
+      margin-top: 5em;
+
+  }
+
+  .child {
+      background-color: lightblue;
+      flex: 1;
+      margin: 1rem;
+      padding: 1rem ;
+  }
+
+  .child.child--big {
+      flex: 3;
+  }
+
+#man_and_dog {
+    /* size: 0.19rem;
+    padding: .5rem; */
+    background-position: center;
+    margin: 5rem;
+    /* display: flex; */
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    position: center;
+    /* min-height: 10%;
+    min-width: 10%;
+    max-height: 90%; */
+    /* background-size: 1em; */
+}
+
+.landing {
+    /* background-size: 1em; */
+    max-width: 80%;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin: 10;
+    padding: 1rem;
+    background-color: lightblue;
+    justify-items: center;
+    justify-self: flex-start;
+    font-size:  13pt;
+}
+
+a:hover {
+    background-color: transparent;
+}
+  .about-content {
+    margin: 5% 20% 10% 30%;
+    margin: 2rem;
+    align-self: center;
+  }
+
+  .image {
+      float: left;
+      max-width: 500px;
+      margin: -3rem 2rem 4rem 4rem;
+      align-self: center;
+  }
