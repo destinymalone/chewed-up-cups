@@ -95,15 +95,19 @@ img {
 }
 
 .landing {
-    display: grid;
+    /* display: grid; */
     margin: 10;
     padding: 1rem;
     grid-template-rows: 1fr 1fr 1fr;
     max-width: 80%;
     font-size: 13pt;
-    background-color: lightblue;
+    /* background-color: lightblue; */
     justify-items: center;
     justify-self: flex-start;
+}
+
+.landing_please {
+    margin-left: -14rem;
 }
 
 a:hover {
