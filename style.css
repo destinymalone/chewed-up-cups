@@ -97,17 +97,19 @@ img {
 .landing {
     /* display: grid; */
     margin: 10;
-    padding: 1rem;
+    padding-left: 6.5rem;
+    padding-right: 6.5rem;
     grid-template-rows: 1fr 1fr 1fr;
     max-width: 80%;
     font-size: 13pt;
     /* background-color: lightblue; */
     justify-items: center;
+    align-self: center;
     justify-self: flex-start;
 }
 
 .landing_please {
-    margin-left: -7rem;
+    margin-left: -6rem;
     font-size: 13pt;
 }
 
