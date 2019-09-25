@@ -1,10 +1,12 @@
 * {
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 title {
     display: inline-block;
     margin: 1 auto;
+    margin-bottom: 2rem;
     padding: 2rem;
     color: rgb(6, 6, 209);
     text-align: center;
@@ -14,6 +16,10 @@ h1, h2, h3, h4 {
     margin: 0 auto;
     color: blue;
     text-align: center;
+}
+
+h1 {
+    margin-bottom: 5rem;
 }
 
 .background_image {
@@ -41,7 +47,7 @@ body {
 }
 
 main {
-    display: grip;
+    /* display: grid; */
     margin: 5vh 15vh 15vh 15vh;
     grid-template-columns: fit-content(300px) fit-content(300px) 1fr;
     grid-gap: 5px;
@@ -97,6 +103,7 @@ img {
 .landing {
     /* display: grid; */
     margin: 10;
+    margin-top: 2rem;
     padding-left: 6.5rem;
     padding-right: 6.5rem;
     grid-template-rows: 1fr 1fr 1fr;
@@ -109,7 +116,7 @@ img {
 }
 
 .landing_please {
-    margin-left: -6rem;
+    margin-left: -2.0rem;
     font-size: 13pt;
 }
 
@@ -128,4 +135,9 @@ a:hover {
     float: left;
     max-width: 500px;
     align-self: center;
+}
+
+.dog_picture {
+    width: 600px;
+    margin-top: 2rem;
 }
